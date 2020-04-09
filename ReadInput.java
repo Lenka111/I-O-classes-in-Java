@@ -15,7 +15,8 @@ public class ReadInput {
 //
 
         File file = new File("enter path to the file here"); //("src/test.txt.")
-        //handle errors in case file isn't found
+        
+        //handle errors 
         try{
             //FileInputStream is a subclass of input stream so it's safe to
             // assign an instance of FileInputStream to an InputStream variable
@@ -40,6 +41,7 @@ public class ReadInput {
             inputStream.close();
         }
 
+        //Catch all the possible errors with IOExcpetion
         catch(IOException e) {
 
             System.out.println(e.getMessage());
