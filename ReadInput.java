@@ -1,3 +1,4 @@
+//Elena Voinu
 import java.io.*;
 
 public class ReadInput {
@@ -13,7 +14,7 @@ public class ReadInput {
 //        }
 //
 
-        File file = new File("/Users/elenavoinu/OneDrive - City Colleges of Chicago/udemy/IOReadTextFromFile/src/text"); //("src/test.txt.")
+        File file = new File("enter path to the file here"); //("src/test.txt.")
         try{
             //FileInputStream is a subclass of input stream so it's safe to
             // assign an instance of FileInputStream to an InputStream variable
