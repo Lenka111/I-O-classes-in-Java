@@ -18,6 +18,7 @@ public class ReadInput {
         try{
             //FileInputStream is a subclass of input stream so it's safe to
             // assign an instance of FileInputStream to an InputStream variable
+            // could also write FileInputStream instead.
             InputStream  inputStream = new FileInputStream(file);
             System.out.println("Total file size in byte is : " + inputStream.available());
 
